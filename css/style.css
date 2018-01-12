@@ -248,14 +248,49 @@ header li {
 }
 .block3 {
 	background-color: #edcd1f;
-	content: ' ';
 	height: 220px;
 }
 .block3-content {
-	width: 920px;
+	width: 940px;
+	margin: 0 auto;
+	padding-top: 45px;
 }
-.col4 {
-	width: 25%; 
+.col-4 {
+	width: 19%; 
+	color: #fff;
+	text-align: center;
+	font-family: Avenir;
+	display: inline-block;
+	margin: 0px 20px;
+}
+.col-4 h1 {
+	font-size: 60px;
+	display: block;
+	margin: 0;
+}
+.col-4 h3 {
+	font-size: 22px;
+	font-family: Arial;
+	font-weight: 700;
+	line-height: 24px;
+	color: #3d5975;
+	height: 52px;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+.block4 {
+	height: 529px;
+	content: ' ';
+	background-color: #F7F5F5;
+}
+.block4-content {
+	width: 940px;
+	margin: 0 auto;
+	font-size: 15px;
+	line-height: 26px;
+	font-family: Arial;
+
 }
 main {
 		
