@@ -292,6 +292,48 @@ header li {
 	font-family: Arial;
 
 }
+.block6 {
+	height: 620px;
+}
+.block6-content {
+	width: 980px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 45px;
+}
+.col2 {
+	display: inline-block;
+	margin: 0 auto;
+	text-align: center;
+}
+.col2 img {
+	height: 165px;
+	width: 165px;
+}
+.col2 h2 {
+	font-size: 20px;
+	line-height: 22px;
+	color: #3d5975;
+	font-family: Roboto;
+	display: block;
+	width: 370px;
+	margin: 20px 30px;
+
+}
+.block6-content p {
+	font-size: 15px;
+	line-height: 24px;
+	color: #3b3a3a;
+	font-family: Arial;
+	margin: 30px auto;
+}
+.order-btn input[type='submit'] {
+	width: 192px;
+}
+.block7 {
+	height: 500px;
+	content: ' ';
+}
 main {
 		
 }
