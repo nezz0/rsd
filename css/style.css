@@ -1,9 +1,15 @@
 
+html {
+	scroll-behavior: smooth;
+}
 body {
 	font-family: Helvetica, Arial, sans-serif;
 	color: #3b3a3a;
 	margin: 0 auto;
 	background-color: #fffff;
+}
+main {
+	
 }
 header {
 	height: 75px;
@@ -13,8 +19,9 @@ header {
     width: 100%; /* Full width */
     z-index: 2;
 }
-nav {
-
+a:hover, a {
+ 	color: inherit;
+    text-decoration: inherit;
 }
 header ul {
 	list-style: none;	
@@ -28,6 +35,17 @@ header li {
 	display: inline;
 	margin: 15px;
 
+}
+header a:hover {
+	color: #edcd1f;
+
+}
+#main,#price,#company,#delivery,#contact,#docs {
+	border-top: 75px solid transparent;
+	margin-top: -75px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
 }
 #logo {
 	background-color: #EDCD1F;
@@ -473,13 +491,9 @@ textarea {
 	margin-left: 30px;
 	margin-bottom: 35px;
 }
-main {
-
-
-}
 footer {
 	background-color: #1E2D3B;
-	height: 80px;
+	height: 60px;
 	color: #fff;
 	font-size: 13px;
 	font-family: Arial;
