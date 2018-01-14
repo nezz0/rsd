@@ -8,9 +8,7 @@ body {
 	margin: 0 auto;
 	background-color: #fffff;
 }
-main {
-	
-}
+
 header {
 	height: 75px;
 	background-color: #1E2D3B;
@@ -19,6 +17,7 @@ header {
     width: 100%; /* Full width */
     z-index: 2;
 }
+
 a:hover, a {
  	color: inherit;
     text-decoration: inherit;
@@ -63,7 +62,7 @@ header a:hover {
 	height: 840px;
 	background-image: url(../img/background.jpg);
 	background-repeat: no-repeat;	 
-	background-size: 110% auto;
+	background-size: cover;
 	position: relative;
 	background-attachment: fixed;
 	background-position: center top;
@@ -133,12 +132,13 @@ header a:hover {
 	position: absolute;
 	left: 580px;
 	top: 223px;
+	width: 40%;
 }
 
 .title-form input[type='text'] {
 	margin: 5px;
 	padding: 5px;
-	width: 330px; 
+	width: 81%; 
 	height: 24px;
 	opacity: 0.5; 
 	font-size: 17px; 
@@ -147,7 +147,7 @@ header a:hover {
 .title-form input[type='tel'], .title-form input[type='email'] {
 	margin: 5px;
 	padding: 5px;
-	width: 151px; 
+	width: 37%; 
 	height: 24px;
 	opacity: 0.5; 
 	font-size: 17px; 
@@ -157,7 +157,7 @@ header a:hover {
 .button {
 	margin: 5px;
 	padding: 5px;
-	width: 342px; 
+	width: 85%; 
 	height: 43px;
 	background-color: #EDCD1F;
 	color: black;
@@ -345,6 +345,7 @@ header a:hover {
 	color: #3b3a3a;
 	font-family: Arial;
 	margin: 30px auto;
+	width: 960px;
 }
 .order-btn input[type='submit'] {
 	width: 192px;
@@ -357,10 +358,9 @@ header a:hover {
 	height: 760px;
 	background-image: url(../img/background.jpg);
 	background-repeat: no-repeat;	 
-	background-size: 120% auto;
+	background-size: cover;
 	position: relative;
 	background-attachment: fixed;
-	background-position: center;
 }
 .block7-content {
 	width: 980px;
@@ -504,6 +504,8 @@ footer p {
 	margin: 20 auto;
 	padding-top:20px;
 }
+
+
 @font-face{
  font-family: "Helvetica";
  src: url("../fonts/Helvetica-Light.otf") format("opentype");
