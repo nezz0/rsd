@@ -6,7 +6,8 @@ body {
 	font-family: Helvetica, Arial, sans-serif;
 	color: #3b3a3a;
 	margin: 0 auto;
-	background-color: #fffff;
+	background-color: #ffffff;
+	font-size: 15px;
 }
 
 header {
@@ -27,7 +28,7 @@ header ul {
 	color: white;
 	font-family: Arial;
 	text-align: right;
-	font-size: 14px;
+	font-size: 0.9333333em;
 	padding: 16px 10px;
 }
 header li {
