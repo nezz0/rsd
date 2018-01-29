@@ -301,7 +301,6 @@ header a:hover {
 .block4 {
 	height: 529px;
 	content: ' ';
-	background-color: #F7F5F5;
 }
 .block4-content {
 	width: 940px;
@@ -309,6 +308,7 @@ header a:hover {
 	font-size: 15px;
 	line-height: 26px;
 	font-family: Arial;
+
 
 }
 .block6 {
@@ -468,7 +468,7 @@ figure:hover+span {
 	color: #c6c6c6;
 	border: 0;
 }
-.back-form input[type='submit'] {
+.back-form button {
 	width: 97%;
 	background-color: #3b3a3a;
 	color: #edcd1f;

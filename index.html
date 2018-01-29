@@ -2,11 +2,13 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Щебень в Донецке</title>
+	<title>Щебень в Донецке. Самые низкие цены</title>
+	<meta name="keywords" content="купить щебень, щебень цена, фракции щебня, щебень донецк, щебень с доставкой, купить щебень донецк"/>
+	<meta name="description" content="Оптовая продажа щебня по ДНР. Любые фракции. Гранит, известняк. Доставка в любой район города."/>
+
+	<link rel="shortcut icon" href="/img/logo.png" type="image/png">
 	<link rel="stylesheet" type="text/css" href="css/style.css"> 
 	<link href="https://fonts.googleapis.com/css?family=Noto+Sans|Open+Sans|Roboto" rel="stylesheet">
-	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
-	</script>
 </head>
 
 <body>
@@ -38,7 +40,7 @@
 						<p style="color: white;">395 руб/т</p>
 					</div>
 					<div id="title-text3">
-						<p style="color: white;">* Цена актуальна на 20.01.2018 </p>
+						<p style="color: white;" id="today"></p>
 					</div>
 					<div id="title-text4">
 						<p style="color: white;">
@@ -55,12 +57,12 @@
 						</p>
 					</div>
 					<div class="form-style">
-						<form class="title-form">
+						<form id="myform" name="orderTitle" class="title-form">
 							<input class="input2row" type="tel" name="phone" placeholder="Телефон">
 							<input class="input2row" type="email" name="email" placeholder="Email">
 							<input type="text" name="volume" placeholder="Объем"><br>
 							<input type="text" name="product" placeholder="Продукция"><br>
-							<input class="button" type="submit" name="order" value="Заказать" onclick="window.open('https://laytagrotr.bitrix24.ua/pub/form/24_zayavka_na_shcheben/phrkd2/', '_blank')">
+							<button class="button">Заказать</button>
 						</form>
 					</div>
 				</div>
@@ -68,7 +70,7 @@
 		</div>
 		<div class="block2" id="price">
 			<div class="grey-line">
-				<p><b>ЦЕНЫ НА ЩЕБЕНЬ</b></p>
+				<p><b>ЦЕНА НА ЩЕБЕНЬ</b></p>
 				<div class="yellow-line"></div>
 			</div>
 			<div class="three-col">
@@ -77,7 +79,7 @@
 					<div class="grey-block">
 						<div class="grey-text-block"><br>
 							<h4>Щебень фракции 5-20 мм 395 руб./т</h4>
-							<p>Мелкая фракция. Для производства железо-бетонных изделий, водопроводных стоков, посыпки дорог и тротуаров, а также для декоративных работ.</p>
+							<p>Мелкая фракция. Для производства железо-бетонных изделий, водопроводных стоков, посыпки дорог и тротуаров, а также для декоративных работ</p>
 						</div>
 					</div>
 					<div class="order-btn">
@@ -88,8 +90,8 @@
 					<img src="img/sheben2.jpg">
 					<div class="grey-block">
 						<div class="grey-text-block"><br>
-							<h4>Щебень фракции 5-20 мм 395 руб./т</h4>
-							<p>Мелкая фракция. Для производства железо-бетонных изделий, водопроводных стоков, посыпки дорог и тротуаров, а также для декоративных работ.</p>
+							<h4>Щебень фракции 20-40 мм 395 руб./т</h4>
+							<p>Средняя фракция. Используется при производстве бетона, на фундаментных работах, для декоративной отделки и при производстве асфальта</p>
 						</div>
 					</div>
 					<div class="order-btn">
@@ -100,8 +102,8 @@
 					<img src="img/sheben3.jpg">
 					<div class="grey-block">
 						<div class="grey-text-block"><br>
-							<h4>Щебень фракции 5-20 мм 395 руб./т</h4>
-							<p>Мелкая фракция. Для производства железо-бетонных изделий, водопроводных стоков, посыпки дорог и тротуаров, а также для декоративных работ.</p>
+							<h4>Щебень фракции 40-60 мм 380 руб./т</h4>
+							<p>Крупная фракция. Используется при строительстве ж/д путей и автомагистралей, а также при производстве бетона, на фундаментных работах</p>
 						</div>
 					</div>
 					<div class="order-btn">
@@ -128,7 +130,7 @@
 				</div>
 				<div class="col-4">
 					<h1>1,3 т</h1>
-					<h3>Насыпная плотность</h3>
+					<h3>В 1 метре кубическом</h3>
 				</div>
 				<div class="col-4">
 					<h1>12%</h1>
@@ -257,12 +259,12 @@
 				<div class="cnt-col">
 					<h2>Обратная связь</h2>
 					<p>Свяжитесь с нами прямо сейчас, позвонив по телефону +38 (066)-276-16-19 или просто заполните форму ниже:</p>
-					<form class="back-form">
-						<input type="email" name="" placeholder="Email">
-						<input type="text" name="" placeholder="Телефон">
-						<input type="text" name="" placeholder="Имя">
-						<textarea placeholder="Комментарий" rows="4"></textarea>
-						<input type="submit" class="button" name="" value="Отправить" >
+					<form id="myform2" class="back-form">
+						<input type="email" name="email" placeholder="Email">
+						<input type="text" name="phone" placeholder="Телефон">
+						<input type="text" name="name" placeholder="Имя">
+						<textarea name="comment" placeholder="Комментарий" rows="4"></textarea>
+						<button class="button">Отправить</button>
 					</form>
 				</div>
 				<div class="cnt-col">
@@ -288,5 +290,15 @@
 		</div>
 	</footer>
 </body>
+
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+	<script type="text/javascript">
+	   (function(){
+	      emailjs.init("user_WCXSrbWS26fIcbXD7oI5B");
+	   })();
+	</script>
+	<script src="js/script.js"></script>
+
 </html>
 
