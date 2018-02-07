@@ -3,7 +3,7 @@ html {
 	scroll-behavior: smooth;
 }
 body {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: HelveticaLight, Arial, sans-serif;
 	color: #3b3a3a;
 	margin: 0 auto;
 	background-color: #fffFff;
@@ -58,6 +58,7 @@ header a:hover {
 #menu {
 	
 }
+@media (min-width: 501px) { 
 .background-img {
 	height: 840px;
 	background-image: url(../img/background.jpg);
@@ -67,6 +68,9 @@ header a:hover {
 	background-attachment: fixed;
 	background-position: center top;
 	
+}
+@media (max-width: 500px) { 
+
 }
 .dark-overlay:before {
     content: '';
@@ -106,7 +110,7 @@ header a:hover {
 	font-family: Avenir;
 }
 #title-text3 {
-	font-family: Helvetica;
+	font-family: HelveticaLight;
 	font-size: 17px;
 	position: absolute;
 	left: 295px;
@@ -114,6 +118,7 @@ header a:hover {
 	letter-spacing: 0.016em;
 }
 #title-text4 {
+	font-family: Arial;
 	font-size: 23px;
 	position: absolute;
 	left: 35px;
@@ -121,7 +126,7 @@ header a:hover {
 	letter-spacing: 0.016em;
 }
 #title-text5 {
-	font-family: Helvetica;
+	font-family: HelveticaLight;
 	font-size: 22px;
 	position: absolute;
 	left: 730px;
@@ -142,7 +147,7 @@ header a:hover {
 	height: 24px;
 	opacity: 0.5; 
 	font-size: 17px; 
-	font-family: Helvetica; 
+	font-family: HelveticaLight; 
 }
 .title-form input[type='tel'], .title-form input[type='email'] {
 	margin: 5px;
@@ -151,7 +156,7 @@ header a:hover {
 	height: 24px;
 	opacity: 0.5; 
 	font-size: 17px; 
-	font-family: Helvetica; 
+	font-family: HelveticaLight; 
 }
 
 .button {
@@ -162,7 +167,7 @@ header a:hover {
 	background-color: #EDCD1F;
 	color: black;
 	font-size: 17px; 
-	font-family: Helvetica;
+	font-family: HelveticaLight;
 	border: 0;
 }
 .block2 {
@@ -333,7 +338,7 @@ header a:hover {
 	font-size: 20px;
 	line-height: 22px;
 	color: #3d5975;
-	font-family: Roboto;
+	font-family: Avenir;
 	display: block;
 	width: 370px;
 	margin: 20px 30px;
@@ -436,7 +441,7 @@ figure:hover+span {
 }
 
 .contact {
-	font-family: Helvetica;
+	font-family: HelveticaLight;
 	font-size: 17px;
 	color: #3b3a3a;
 	line-height: 26px;
@@ -463,7 +468,7 @@ figure:hover+span {
 	opacity: 1; 
 	font-size: 15px; 
 	width: 95%;
-	font-family: Helvetica; 
+	font-family: HelveticaLight; 
 	background-color: #FAFAFA;
 	color: #c6c6c6;
 	border: 0;
@@ -482,7 +487,7 @@ textarea {
 	opacity: 1; 
 	font-size: 15px; 
 	width: 95%;
-	font-family: Helvetica; 
+	font-family: HelveticaLight; 
 	background-color: #FAFAFA;
 	color: #c6c6c6;
 	border: 0;
@@ -496,7 +501,7 @@ footer {
 	height: 60px;
 	color: #fff;
 	font-size: 13px;
-	font-family: Arial;
+	font-family: Avenir;
 	letter-spacing: 0.1em;
 	text-align: center;
 }
@@ -505,9 +510,8 @@ footer p {
 	padding-top:20px;
 }
 
-
 @font-face{
- font-family: "Helvetica";
+ font-family: "HelveticaLight";
  src: url("../fonts/Helvetica-Light.otf") format("opentype");
  font-style: normal; 
  font-weight: 400; 

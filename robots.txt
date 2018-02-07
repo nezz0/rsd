@@ -1,0 +1,3 @@
+User-Agent: *
+Disallow:
+Host: https://xn----gtbb0blec.xn--p1ai
