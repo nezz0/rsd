@@ -39,6 +39,7 @@ header a:hover {
 	color: #edcd1f;
 
 }
+
 #main,#price,#company,#delivery,#contact,#docs {
 	border-top: 75px solid transparent;
 	margin-top: -75px;
@@ -58,7 +59,7 @@ header a:hover {
 #menu {
 	
 }
-@media (min-width: 501px) { 
+
 .background-img {
 	height: 840px;
 	background-image: url(../img/background.jpg);
@@ -69,9 +70,7 @@ header a:hover {
 	background-position: center top;
 	
 }
-@media (max-width: 500px) { 
 
-}
 .dark-overlay:before {
     content: '';
     display: block;
@@ -135,12 +134,12 @@ header a:hover {
 }
 .form-style {
 	position: absolute;
-	left: 580px;
+	left: 625px;
 	top: 223px;
-	width: 40%;
+	width: 37%;
 }
 
-.title-form input[type='text'] {
+.title-form input[type='text'], .title-form input[type='tel'] {
 	margin: 5px;
 	padding: 5px;
 	width: 81%; 
@@ -149,16 +148,9 @@ header a:hover {
 	font-size: 17px; 
 	font-family: HelveticaLight; 
 }
-.title-form input[type='tel'], .title-form input[type='email'] {
-	margin: 5px;
-	padding: 5px;
-	width: 37%; 
-	height: 24px;
-	opacity: 0.5; 
-	font-size: 17px; 
-	font-family: HelveticaLight; 
+input[type='submit'], button {
+	cursor: pointer; 
 }
-
 .button {
 	margin: 5px;
 	padding: 5px;

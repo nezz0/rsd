@@ -16,7 +16,7 @@ myform.submit(function(event){
        alert("Заказ отправлен!");
        myform.find("button").text("Заказать");
      }, function(err) {
-       alert("Отправить письмо не удалось, звоните!\r\n Response:\n " + JSON.stringify(err));
+       alert("Отправить заказ не удалось, звоните!\r\n Response:\n " + JSON.stringify(err));
        myform.find("button").text("Заказать");
     });
   return false;
