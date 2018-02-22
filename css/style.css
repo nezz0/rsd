@@ -20,7 +20,7 @@ header {
 
 a:hover, a {
  	color: inherit;
-    text-decoration: inherit;
+    text-decoration: inherit; 
 }
 header ul {
 	list-style: none;	
